@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import Counter from '../contracts/counter';
 import { useTonClient } from './useTonClient';
 import { useAsyncInitialize } from './useAsyncInitialize';
-import { address, Address, OpenedContract } from '@ton/core';
+import { Address, OpenedContract } from '@ton/core';
 import { useTonConnect } from './useTonConnect';
 
 export function useCounterContract() {
